@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+/* Wrapper */
+.wrapper .multi_color_border {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right,
+     #ffa69e 0% , 
+     #ffa69e 25%, 
+     #494949 25%, 
+     #494949 50%, 
+     #ffa69e 50%, 
+     #ffa69e 75%, 
+     #494949 75%, 
+     #494949 100%);
+}
+
+.wrapper .top-nav {
+    
+        margin-top: 5px;
+        width: 100%;
+        height: 65px;
+        background: #fff;
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+}
+
+.wrapper .top-nav .left{
+    display: flex;
+    align-items: center;
+  }
+
+  .wrapper .top-nav .left .logo p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #494949;
+    font-family: "Mountains of Christmas", cursive;
+    margin-right: 25px;
+  }
+
+  .wrapper .top-nav .left .logo p span{
+    color: #ffa69e;
+    font-family: "Mountains of Christmas", cursive;
+  }
+
+  .wrapper .top-nav .left .search-bar input[type="text"]{
+    border: 1px solid #666666;
+    padding: 5px 10px; 
+    outline: none;
+    transition: all 0.5s linear;
+  }
+
+  .wrapper .top-nav .left .search-bar input[type="text"]:focus{
+    width: 200px;
+  }
+
+  .wrapper .top-nav .right ul {
+    display: flex;
+  }
+
+  .wrapper .top-nav .right ul li {
+      margin: 0 12px;
+  }
+
+  .fa-facebook {
+    color: #494949;
+  }
+
+  .fa-twitter {
+    color: #494949;
+  }
+
+  .fa-instagram {
+    color: #494949;
+  }
+
+  .fa-youtube {
+    color: #494949;
+  }
+  
+  /* Bottom Nav */
+  
+  .wrapper .bottom-nav{
+    width: 100%;
+    background: #f9f9f9;
+    height: 45px;
+    padding: 0 50px;
+  }
+
+  .wrapper .bottom-nav ul{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wrapper .bottom-nav ul li a{
+    color: #494949;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+/* Top Nav */
+
+
+.pure-g {
+    /* background-color: azure; */
+    /* border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    */
+    padding: 5px;
+}
+
+.home-menu ul {
+    float: right;
+}
+
+.home-menu {
+    background: #f5f1f1;
+    margin-top: 51px;
+}
+
+
+.box {
+    padding: 1em;
+}
+
+.pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 {
+    text-align: left;
+}
+
+.pure-menu-horizontal {
+    padding: 1em;
+    
+}
+
+.banner {
+    background: linear-gradient(rgba(119, 118, 118, 0.4), rgba(185, 181, 182, 0.4)), url("/sonyejin.jpg");     */
+    width: 100vw;
+    height: 700px;
+    margin-left: auto;
+    background-size: cover;
+}

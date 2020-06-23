@@ -157,6 +157,54 @@
     background-size: cover;
 }
 
+/* Hamburger Menu */
+
+.menu-toggle input {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -5px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle span {
+  background-color: black;
+  display: block;
+  width: 28px;
+  height: 3px;
+  transition: all 0.5s;
+}
+
+/* Hamburger Menu Animation */
+
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  transform: scale(0);
 
 /* Responsive */
 
@@ -169,5 +217,7 @@
 
 /* mobile */
 @media screen and (max-width: 576px){
-  
+  .right {
+    display: none;
+  }
 }
